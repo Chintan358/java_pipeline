@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
 		      deleteDir()	
-                git branch: 'main', url: 'https://github.com/vipulitinfra/javaapp_demo.git'
+                git branch: 'main', url: 'https://github.com/Chintan358/java_pipeline.git'
             }
         }
 
