@@ -1,0 +1,7 @@
+iversion: "3.8"
+services:
+  javaapp:
+    build: .
+    container_name: javaapp_demo
+    ports:
+      - "8000:8000"
